@@ -27,6 +27,6 @@ Mapa mental
 --> Precisamos Calcular a média  
 --> Dados: 4 notas  
 --> Calculo da média: (Soma de Todas as Notas)/Quantidade de notas  
-=  
+*=*  
 Calculo: (5+7+10+3)/4
 Resultado: 25/4 = 6.25
