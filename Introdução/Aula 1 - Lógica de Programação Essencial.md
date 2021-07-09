@@ -74,3 +74,7 @@ Inicio-dia
     Vou dormir
 Fim-dia
 ```
+
+# O que é Fluxograma
+
+"Fluxograma é uma ferramenta utilizada para representar graficamente o algoritmo, isto é, a sequência lógica e coerente do fluxo de dados".
