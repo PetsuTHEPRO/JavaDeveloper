@@ -112,5 +112,42 @@ As constantes: são valores imutáveis e não são alterados durante a vida úti
 INICIO
 DECLARA pi=3.14
 DECLARA raio:numero
-FIm
+FIM
 ```
+
+Link do Site abordado na aula: https://www.flowgorithm.org
+
+**Expressões aritméticas**: São expressões que utilizam operadores aritméticos e funções aritméticas envolvendo constantes e variáveis.
+  
+exemplos:  
+50+50  
+total+50  
+
+**Operadores Aritméticas**
+
+Expressão      | sinal |
+---------------|-------|
+ Soma          |   +   |
+ Subtração     |   -   |
+ Multiplicação |   *   |
+ Divisão       |   /   |
+ Potenciação   |   ^   |
+ Porcentagem   |   %   |
+
+ **Expressões literais**
+
+ São expressões com constantes e/ou variáveis que tem como resultado valores literais. Iremos utilizar as expressões literais na atribuição de valor para uma variável ou constante.
+
+ **Exemplos**:
+   
+ nome="José da Silva"
+ nome <- "José da Silva"
+ media=(nota1+nota2+nota3+nota4)/4 
+
+ **Operadores relacionais**
+
+ Símbolo | Nome do Operador | Exemplo |    Significado    |
+    >    | Maior que        | x > y   | x é maior que y ? |
+    >=   | Maior que igual  | x >= y  | x é maior ou igual a y? |
+    <    | Menor que        | x < y   | x é menor que y ? |
+    <=   | Menor ou igual   | x <= y  | x é menor ou igual a y 
