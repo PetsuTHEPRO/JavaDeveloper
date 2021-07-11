@@ -78,3 +78,39 @@ Fim-dia
 # O que é Fluxograma
 
 "Fluxograma é uma ferramenta utilizada para representar graficamente o algoritmo, isto é, a sequência lógica e coerente do fluxo de dados".
+
+No fluxograma temos algumas formas geometricas, porém não tem um padrão especifico para essas formas, que irão representar algumas funções.
+
+## Variáveis e Constantes
+
+O que são variáveis? Na programação, uma variável é um objeto(uma posição, frequentemente localizada na memória) capaz de reter e representar um valor ou expressão.
+
+Exemplo de Pseudocódigo.
+
+```
+INICIO
+
+DECLARA nota1: numero
+DECLARA nota2: numero
+DECLARA nota3: numero
+DECLARA nota4: numero
+DECLARA media: numero
+LEIA(nota1)
+LEIA(nota2)
+LEIA(nota3)
+LEIA(nota4)
+media=(nota1+nota2+nota3+nota4)/4
+IMPRIMIR(media)
+FIM
+```
+
+As variáveis ou constantes podem ser classificadas basicamente de quatro tipos: Numéricas, Caracteres, Alfanuméricas ou Lógicas.
+
+As constantes: são valores imutáveis e não são alterados durante a vida útil do programa.
+
+```
+INICIO
+DECLARA pi=3.14
+DECLARA raio:numero
+FIm
+```
