@@ -28,3 +28,59 @@ Quando uma condição no laço de repetição não é cumprida, o laço entra em
 
 Link da IDE do Portugol: https://github.com/UNIVALI-LITE/Portugol-Studio/releases/
 
+## Desvio Condicional
+
+- Se: É utilizada a palavra reservada **se**, a condição a ser testada entre parenteses e as instruções que devem ser executadas entre chaves caso o desvio seja **verdadeiro**.
+
+
+Exemplo de Programa usando o **se**:
+
+```
+se(media>=7){
+    escreva("Parabéns! Você foi aprovado.")
+}
+senao{
+    escreva("Infelizmente, você foi reprovado.")
+}
+```
+
+Exemplo de Programa: Menu
+
+```
+    escreva("1- Abrir Netflix 2- Abrir Amazon Prime 3- Abrir HBO GO 4- Sair")
+    inteiro menu = 0
+    escreva("Sua opção:")
+    leia(menu)
+
+    se(menu==1){
+        escreva("OK!! Abrir Netflix!!")
+    }
+    
+    se(menu==2){
+        escreva("OK!! Abrir Amazon Prime!!")
+    }
+    se(menu==3){
+        escreva("OK!! Abrir Abrir HBO GO!!")
+    }
+    se(menu==4){
+        escreva("Saindo...")
+    }
+```
+
+## Laço de Repetição
+
+Dentro da lógica de programação é uma estrutura que permite executar mais de uma vez o mesmo comando ou conjunto de comandos, de acordo com uma condição ou com um **contador**.
+
+```
+funcao inicio(){
+
+    inteiro contador, limite, resultado
+    contador = 0
+    limite = 10
+    faca{
+        resultado = 9 * contador
+        escreva("9 X " + contador + "=" + resultado + "\n")
+        contador++ 
+    }enquanto(contador <= limite)
+}
+```
