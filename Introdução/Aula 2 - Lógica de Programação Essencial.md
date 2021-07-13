@@ -84,3 +84,15 @@ funcao inicio(){
     }enquanto(contador <= limite)
 }
 ```
+
+## Matriz e Vetores
+
+Uma matriz é uma coleção de variáveis de mesmo tipo, acessíveis com um único nome e armazenados contiguamente na memória.
+
+A individualização de cada variável de um vetor é feita através do uso de índices.
+
+Os vetores são matrizes de uma só dimensão.
+
+**Exercício final**
+
+inteiro dadosCliente[][] = {{"João", "São Paulo", "(11) 9999-5241"}, {"Maria", "Ribeirão Preto", "(16) 9999-8596"}, {"Ana","Manaus","(92) 9999-8574"}}
