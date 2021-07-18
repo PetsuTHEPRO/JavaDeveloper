@@ -17,3 +17,45 @@ Como tipos primitivos entendemos aquelas tipos de informação mais usuais e bá
     - Float: 4 bytes.
     - Double: 8 bytes.
 
+# Wrappers
+
+ Tipo          | Tipo Primitivo | Classe Wrapper | Subclasse |
+ --------------|----------------|----------------|-----------|
+ Lógico        | Boolean        | Boolean        | Object    |
+ Caractere     | Char           | Caracter       | Object    |
+ Integral      | byte           | Byte           | Number    |
+ Integral      | short          | Short          | Number    |
+ Integral      | int            | Integer        | Number    |
+ Integral      | long           | Long           | Number    |
+ Ponto Fluante | float          | Float          | Number    |
+ Ponto Fluante | Double         | Double         | Number    |
+
+- São os Objetos que representam os primitivos.
+- Auto-Boxing e Unboxing.
+
+Após o Java 5 surgiu a funcionalidade do Autoboxing onde o próprio Java já converte o tipo primitivo em Wrapper se este achar que é necessário.
+
+**AutoBoxing** 
+
+```
+HashMap hashMap = new HashMap();
+hashMap.put(10, “Carlos”);
+hashMap.put(11, “Jose”);
+hashMap.put(12, “Pedro”);
+```
+
+**Boxing Conversion**
+
+O Boxing é a conversão de tipos primitivos em seu respectivo Wrapper correspondente.
+
+```
+Boolean meuBoolean = true;
+//a conversão é feita de forma automática para o boolean
+Integer meuInteger = 1203;
+Double meuDouble = 10.20;
+```
+
+Obs: É claro que se você tentar realizar um Boxing Conversion de um tipo primitivo para um Wrapper errado você terá um errode compilação.
+
+**Unboxing Conversion**
+
