@@ -44,6 +44,8 @@ hashMap.put(11, “Jose”);
 hashMap.put(12, “Pedro”);
 ```
 
+> Exemplo: Integer integer = 9;
+
 **Boxing Conversion**
 
 O Boxing é a conversão de tipos primitivos em seu respectivo Wrapper correspondente.
@@ -58,4 +60,13 @@ Double meuDouble = 10.20;
 Obs: É claro que se você tentar realizar um Boxing Conversion de um tipo primitivo para um Wrapper errado você terá um errode compilação.
 
 **Unboxing Conversion**
+
+É o processo inverso do autoboxing, convertendo um objeto proveniente de uma classe que acondiciona um tipo primitivo para um valor primitivo. Para exemplificar o emprego de unboxing, basta fazer o oposto dos exemplos de autoboxing.
+
+> Exemplo:
+> int in = 0;
+> in = new Integer(9);
+
+Leitura importante parte 1: https://www.devmedia.com.br/autoboxing-e-unboxing-em-java/28620
+Leitura importante parte 2: https://www.devmedia.com.br/conhecendo-as-classes-wrappers-autoboxing-e-auto-unboxing/7384
 
