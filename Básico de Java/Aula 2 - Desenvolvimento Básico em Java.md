@@ -70,3 +70,4 @@ Obs: É claro que se você tentar realizar um Boxing Conversion de um tipo primi
 Leitura importante parte 1: https://www.devmedia.com.br/autoboxing-e-unboxing-em-java/28620
 Leitura importante parte 2: https://www.devmedia.com.br/conhecendo-as-classes-wrappers-autoboxing-e-auto-unboxing/7384
 
+> Importante ressaltar que o operador "==" tem que ser usado apenas quando for comparar variáveis de tipo primitivos, então para comparar Wrapper utilizamos **equals**, pois por causa do padrão de projeto Flyweigth
